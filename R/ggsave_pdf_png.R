@@ -11,14 +11,14 @@
 
 ggsave_pdf_png <- function(p, path, width, height){
   
-  ggsave(path,
+  ggplot2::ggsave(path,
          p,
          useDingbats = FALSE,
          width = width, 
          height = height,
          units = 'in')
   
-  ggsave(gsub('.pdf', '.png', path),
+  ggplot2::ggsave(gsub('.pdf', '.png', path),
          p,
          width = width, 
          height = height,
