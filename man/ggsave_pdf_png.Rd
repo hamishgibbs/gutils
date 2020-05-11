@@ -23,6 +23,3 @@ none
 Save a pdf and png image in the same directory with the same filename
 Useful for creating identical versions of a publication figure
 }
-\examples{
-ggsave_pdf_png(p, 'output/plot_1.png', 8, 4)
-}

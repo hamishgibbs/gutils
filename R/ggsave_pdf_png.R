@@ -6,8 +6,6 @@
 #' @param width numeric, output figure width (inches)
 #' @param height numeric, output figure height (inches)
 #' @return none
-#' @examples
-#' ggsave_pdf_png(p, 'output/plot_1.png', 8, 4)
 
 ggsave_pdf_png <- function(p, path, width, height){
   
