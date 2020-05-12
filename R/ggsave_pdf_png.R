@@ -6,20 +6,21 @@
 #' @param width numeric, output figure width (inches)
 #' @param height numeric, output figure height (inches)
 #' @return none
+#' @export
 
 ggsave_pdf_png <- function(p, path, width, height){
-  
+
   ggplot2::ggsave(path,
          p,
          useDingbats = FALSE,
-         width = width, 
+         width = width,
          height = height,
          units = 'in')
-  
+
   ggplot2::ggsave(gsub('.pdf', '.png', path),
          p,
-         width = width, 
+         width = width,
          height = height,
          units = 'in')
-  
+
 }
