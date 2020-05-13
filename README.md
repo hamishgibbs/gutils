@@ -1,5 +1,5 @@
 # gutils
-Custom utility functions
+A small package of custom utility functions
 
 #### Installation
 `remotes::install_github("hamishgibbs/gutils", dependencies = TRUE)`
