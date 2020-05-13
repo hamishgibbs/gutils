@@ -1,6 +1,7 @@
 #' Save a pdf and png image in the same directory with the same filename
 #' Useful for creating identical versions of a publication figure
 #'
+#' @import ggplot2
 #' @param p ggplot object, ggplot object to be saved
 #' @param path character, output pdf filepath
 #' @param width numeric, output figure width (inches)
