@@ -2,8 +2,7 @@
 % Please edit documentation in R/ggsave_pdf_png.R
 \name{ggsave_pdf_png}
 \alias{ggsave_pdf_png}
-\title{Save a pdf and png image in the same directory with the same filename
-Useful for creating identical versions of a publication figure}
+\title{Save a pdf and png image with identical path and filename}
 \usage{
 ggsave_pdf_png(p, path, width, height)
 }
@@ -20,6 +19,5 @@ ggsave_pdf_png(p, path, width, height)
 none
 }
 \description{
-Save a pdf and png image in the same directory with the same filename
-Useful for creating identical versions of a publication figure
+Save a pdf and png image with identical path and filename
 }

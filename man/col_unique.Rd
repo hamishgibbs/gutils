@@ -2,14 +2,14 @@
 % Please edit documentation in R/col_unique.R
 \name{col_unique}
 \alias{col_unique}
-\title{Get the unique values, or nth unique value, of a tibble column}
+\title{Get the unique values of a dataframe column}
 \usage{
 col_unique(data, column, n = NULL)
 }
 \arguments{
 \item{data}{data.frame, dataset to be subset}
 
-\item{column}{character or column object (consistent with dplyr-style column selection)}
+\item{column}{character or column object to select}
 
 \item{n}{numeric, optional, return only the nth record}
 }
@@ -17,13 +17,13 @@ col_unique(data, column, n = NULL)
 vector, unique column values or nth item of unique column values
 }
 \description{
-Get the unique values, or nth unique value, of a tibble column
+Get the unique values of a dataframe column
 }
 \examples{
 
 data <- tibble::tibble(country = c('USA', 'Albania', 'Borneo'), value = c(1, 2, 3))
 
-data \%>\% col_unique(country, 3)
 data \%>\% col_unique(country)
+data \%>\% col_unique(country, 3)
 
 }

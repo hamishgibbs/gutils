@@ -1,5 +1,4 @@
-#' Save a pdf and png image in the same directory with the same filename
-#' Useful for creating identical versions of a publication figure
+#' Save a pdf and png image with identical path and filename
 #'
 #' @import ggplot2
 #' @param p ggplot object, ggplot object to be saved
