@@ -2,7 +2,7 @@
 
 export("%>%")
 export(col_unique)
-export(ggsave_pdf_png)
+export(ggsave_png_pdf)
 import(dplyr)
 import(ggplot2)
 importFrom(magrittr,"%>%")
